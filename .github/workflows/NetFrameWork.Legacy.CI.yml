@@ -15,4 +15,4 @@ jobs:
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Build with MSBuild
-      run: msbuild  YOUR_SOLUTION_NAME -p:Configuration=Release
+      run: msbuild  legacyproj\example3.sln -p:Configuration=Release
